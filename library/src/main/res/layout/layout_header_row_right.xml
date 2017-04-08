@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hsv_header"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/header_right_cell_height"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/layout_header_row_cell"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/header_right_cell_height"
+        android:orientation="horizontal">
+
+        <include layout="@layout/layout_header_cell_right" />
+
+        <include layout="@layout/layout_header_cell_right" />
+
+        <include layout="@layout/layout_header_cell_right" />
+
+        <include layout="@layout/layout_header_cell_right" />
+
+        <include layout="@layout/layout_header_cell_right" />
+
+        <include layout="@layout/layout_header_cell_right" />
+    </LinearLayout>
+</HorizontalScrollView>
